@@ -78,6 +78,7 @@ Weather::Weather(Controllers::Settings& settingsController, Controllers::SimpleW
   // LV_TABLE_PART_CELL1: Default table style
   lv_obj_set_style_local_border_color(forecast, LV_TABLE_PART_CELL1, LV_STATE_DEFAULT, LV_COLOR_BLACK);
   lv_obj_set_style_local_text_color(forecast, LV_TABLE_PART_CELL1, LV_STATE_DEFAULT, Colors::lightGray);
+  lv_obj_set_style_local_pad_right(forecast, LV_TABLE_PART_CELL1, LV_STATE_DEFAULT, 6);
   // LV_TABLE_PART_CELL2: Condition icon
   lv_obj_set_style_local_border_color(forecast, LV_TABLE_PART_CELL2, LV_STATE_DEFAULT, LV_COLOR_BLACK);
   lv_obj_set_style_local_text_color(forecast, LV_TABLE_PART_CELL2, LV_STATE_DEFAULT, LV_COLOR_WHITE);
