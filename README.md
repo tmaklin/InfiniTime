@@ -1,3 +1,8 @@
+This fork incorporates the following extra features
+- [Background heartrate monitoring](https://github.com/InfiniTimeOrg/InfiniTime/pull/1718)
+- [Calculator](https://github.com/InfiniTimeOrg/InfiniTime/pull/1483)
+- [Calendar](https://github.com/InfiniTimeOrg/InfiniTime/pull/1958)
+
 # [InfiniTime](https://github.com/InfiniTimeOrg/InfiniTime)
 
 ![InfiniTime logo](doc/logo/infinitime-logo-small.jpg "InfiniTime Logo")
